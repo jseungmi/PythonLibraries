@@ -28,8 +28,21 @@ for _ in range(1,10):
 print(a)
 
 #Conditional, if문
-import random
+
+point = int(input("점수를 입력하세요"))
+
+if point >= 90:
+    print("A")
+elif 80 <= point < 90:
+    print("B")
+elif 70 <= point < 80:
+    print("C")
+elif 60 <= point <70:
+    print("D")
+elif point <60:
+    print("F")
 
 
 #loop, while문
+
 
