@@ -8,4 +8,4 @@ for i in range(1, 11):
 f.close()
 
 #line4, 경로설정tip : 터미널 창에, pwd를 입력하면 현재 경로가 나옴. 
-#line4, 경로설정tip : dir = os.path.dirname(os.path.realpath(__file__))
+#line4, 경로설정tip : _dir = os.path.dirname(os.path.realpath(__file__))

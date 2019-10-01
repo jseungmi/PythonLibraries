@@ -6,8 +6,8 @@ f.write("jenny\n")
 for i in points.items():
     f.write(str(i)+'\n')
     print(i)
-
 f.close()
+
 
 points_2 = {"korean" : 90, "science" : 80, "math" : 100, "English" : 50}
 
